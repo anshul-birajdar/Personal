@@ -1,4 +1,3 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -128,3 +127,10 @@ alias memory="free -mh"
 alias rm="rm -i"
 PATH=$PATH:~/.cargo/bin
 PATH=$PATH:~/x16
+alias update='sudo apt update -y;sudo apt upgrade -y;sudo npm install -g npm;rustup update;'
+PATH="/home/anshul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/home/anshul/x16"
+
+echo sudo do-release-upgrade,software n updates - sudo update-manager -d
+
+alias cp="cp -v"
+alias mv="mv -v"
