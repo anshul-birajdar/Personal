@@ -1,3 +1,4 @@
+# ranger---file manager xdg-open "any_filename" => opens in default
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
