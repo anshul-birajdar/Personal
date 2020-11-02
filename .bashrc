@@ -135,3 +135,4 @@ echo sudo do-release-upgrade,software n updates - sudo update-manager -d
 
 alias cp="cp -v"
 alias mv="mv -v"
+PATH=$PATH:~/.cargo/bin
