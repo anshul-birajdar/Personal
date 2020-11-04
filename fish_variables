@@ -1,3 +1,4 @@
+#default file,dont keep if giving errors
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
