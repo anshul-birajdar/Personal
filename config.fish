@@ -1,7 +1,7 @@
 #
-#  /\   
-# /  \  keep in ~/.config/fish/config.fish
-#/    \ 
+#    
+#  keep in ~/.config/fish/config.fish
+#
 
 set -U fish_user_paths $fish_user_paths $HOME/.local/bin/
 set fish_greeting                      # Supresses fish's intro message
