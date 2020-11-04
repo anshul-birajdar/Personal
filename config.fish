@@ -1,3 +1,8 @@
+#
+#  /\   
+# /  \  keep in ~/.config/fish/config.fish
+#/    \ 
+
 set -U fish_user_paths $fish_user_paths $HOME/.local/bin/
 set fish_greeting                      # Supresses fish's intro message
 set TERM "xterm-256color"              # Sets the terminal type
@@ -312,4 +317,5 @@ alias free='free -m'                      # show sizes in MB
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
 # Or install it from the Arch User Repository: shell-color-scripts
 /opt/shell-color-scripts/colorscript.sh random
+
 
