@@ -1,3 +1,6 @@
+echo remember tar works like tar -cvf out_filename.tar input_files_or_dir
+#echo vimtutor
+
 # ranger---file manager xdg-open "any_filename" => opens in default
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -129,10 +132,11 @@ alias rm="rm -i"
 PATH=$PATH:~/.cargo/bin
 PATH=$PATH:~/x16
 alias update='sudo apt update -y;sudo apt upgrade -y;sudo npm install -g npm;rustup update;'
-PATH="/home/anshul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/home/anshul/x16"
+#PATH="/home/anshul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/home/anshul/x16"
 
-echo sudo do-release-upgrade,software n updates - sudo update-manager -d
+#echo sudo do-release-upgrade,software n updates - sudo update-manager -d
 
 alias cp="cp -v"
 alias mv="mv -v"
 PATH=$PATH:~/.cargo/bin
+PATH=$PATH:~/.local/bin
