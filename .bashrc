@@ -140,3 +140,4 @@ alias cp="cp -v"
 alias mv="mv -v"
 PATH=$PATH:~/.cargo/bin
 PATH=$PATH:~/.local/bin
+alias rustb="cargo clippy"
