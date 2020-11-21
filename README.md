@@ -23,3 +23,11 @@ MAN_PAGE_LINUX SECTIONS
 
 uname -a
 ```
+
+```{shell}
+
+pacman -S NAME # installs NAME
+pacman -SS Q # Searches Q as querie
+pacman -R NAME # remove NAME
+pacman -Syu # update
+```
