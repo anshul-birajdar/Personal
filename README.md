@@ -9,7 +9,7 @@ printf("Personal_files\n");
 
 }
 
-
+/*
 MAN_PAGE_LINUX SECTIONS
 
 1 	General commands
@@ -22,6 +22,7 @@ MAN_PAGE_LINUX SECTIONS
 8 	System administration commands and daemons
 
 uname -a
+*/
 ```
 
 ```{shell}
