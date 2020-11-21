@@ -31,3 +31,9 @@ pacman -SS Q # Searches Q as querie
 pacman -R NAME # remove NAME
 pacman -Syu # update
 ```
+
+
+LINKS:
+https://www.youtube.com/watch?v=uDPLlCB86uw&list=PLT98CRl2KxKHjq4YVsHqp9BbfDhtImhrN&index=15
+https://www.youtube.com/watch?v=VoTD-NHo1TE&list=PLT98CRl2KxKHjq4YVsHqp9BbfDhtImhrN&index=16
+https://www.youtube.com/watch?v=oBxXQSijTPc&list=PLT98CRl2KxKHjq4YVsHqp9BbfDhtImhrN&index=18
