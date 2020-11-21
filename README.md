@@ -39,4 +39,11 @@ LINKS:
 https://www.youtube.com/watch?v=uDPLlCB86uw&list=PLT98CRl2KxKHjq4YVsHqp9BbfDhtImhrN&index=15
 https://www.youtube.com/watch?v=VoTD-NHo1TE&list=PLT98CRl2KxKHjq4YVsHqp9BbfDhtImhrN&index=16
 https://www.youtube.com/watch?v=oBxXQSijTPc&list=PLT98CRl2KxKHjq4YVsHqp9BbfDhtImhrN&index=18
+
+AUR: the arch user repo
+YAY: THE aur HELPER https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/
+luke dwm:
+curl -LO larbs.xyz/larbs.sh
+sh larbs.sh
+super + f1/super f2 : in dwm-luke : manual
 ```
