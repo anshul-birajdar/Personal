@@ -8,7 +8,7 @@ int main(void){
 printf("Personal_files\n");
 
 }
-```
+
 
 MAN_PAGE_LINUX SECTIONS
 
@@ -22,4 +22,4 @@ MAN_PAGE_LINUX SECTIONS
 8 	System administration commands and daemons
 
 uname -a
-
+```
