@@ -32,6 +32,7 @@ pacman -SS Q # Searches Q as querie
 pacman -R NAME # remove NAME
 pacman -Syu # update
 pacman -Syyyy # update repo info
+man pacman  && pacman --help # for help
 ```
 
 ```
