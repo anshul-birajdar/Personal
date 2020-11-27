@@ -81,7 +81,7 @@ pactree <pkg> 	What does pkg depend on?
 pactree -r <pkg> 	What depends on pkg?
 ```
 ```{shell}
-gcc:
+$ # gcc: * indicates any file you want (not all files i.e shell expansion)
 $ gcc <*.c> <*.o> -o <a.out> # .o is optional gives executable
 $ gcc -c <*.c> <*.o> -o <a.out> # .o is optional  gives object files
 $ gcc <*.c> -S <a.s> # gives executable
