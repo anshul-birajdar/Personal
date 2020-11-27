@@ -220,3 +220,11 @@ file a
 ~/.profile  : exec for login shell
 sequence /etc/profile ~/.profile ~/.bashrc /etc/bashrc
 ```
+
+```
+which : finds commands if exist
+fg command eqivalent to  $ command
+bg command eqivalent to  $ command& or if aldready in press ^Z
+^C to exit
+^D some times (EOF also)
+```
