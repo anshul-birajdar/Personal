@@ -26,6 +26,12 @@ uname -a
 ```
 
 ```{shell}
+. is current dir
+.. is one behind 
+~ is the home dir
+/ is the root and the separater
+
+see : https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 
 pacman -S NAME # installs NAME
 pacman -SS Q # Searches Q as querie
@@ -175,4 +181,24 @@ ping sitename.com # pings the site until press ^C (useful for checking net is th
 traceroute google.com # to trace the route of packets
 vi: $ vimtutor
 other  commands : see "the linux command line" or "unix for 7th graders" books
+ls    --color=auto is often aliased to ls ; try $ /bin/ls   # color is not there
+grep|---------------------------------------------/bin/grep---------------------|
+grep usage 
+$ grep searchterm filename
+ls cp mv cd 
+
+```
+```
+env var(s)
+$HOME is a var
+to set it 
+$ HOME=~ # notice the space. $ is the prompt
+$ # this is a comment
+echo $PATH # to get the value of $PATH notice the $is there when getting the value and not while setting it : =is there on the right side to tell the shell that var assignment is going on
+PATH=favdir:$PATH # will add favdir/* files non-recursively to the list of executables temporarily
+note : dir name are separated by ":"
+note that when shell finds two or more : then it will chose the first one so to prevent some programs to disappear and the wrong on execs : do
+PATH=$PATH:favdir
+for permanant solution add it to your $HOME/.bash_profile or ~/.bashrc
+
 ```
