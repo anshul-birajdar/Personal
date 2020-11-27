@@ -192,7 +192,7 @@ ls    --color=auto is often aliased to ls ; try $ /bin/ls   # color is not there
 grep|---------------------------------------------/bin/grep---------------------|
 grep usage 
 $ grep searchterm filename
-ls cp mv cd 
+ls cp mv cd pwd
 
 ```
 ```
