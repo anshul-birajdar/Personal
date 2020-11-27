@@ -117,6 +117,13 @@ to binary
 - rem |------------------|
 u user g group o other
 ex : $ chmod u+x filename
+sticky suid sgid :
+uid: set uid of owner rather than curent user
+add 4 to last digit of chmod which is 0 so not required or chmod name+s
+gid: set gid of ownergrp rather than curent user's grp
+add 2 to last digit or chmod name+g
+sticky:prevent deletion of dir or content of it not created by user even if permission is granted : used in /tmp to hold temp files
+add 1 to last digit or chmod name+g
 
 Users & Groups:
 $ passwd <user> # sets the password for user , default is root
@@ -200,5 +207,16 @@ note : dir name are separated by ":"
 note that when shell finds two or more : then it will chose the first one so to prevent some programs to disappear and the wrong on execs : do
 PATH=$PATH:favdir
 for permanant solution add it to your $HOME/.bash_profile or ~/.bashrc
-
+to export shell vars : export varname # for permanant solution add it to your $HOME/.bash_profile or ~/.bashrc
+scrips 
+list of commads in a file to exec one by one
+file a
+#!/bin/bash > The interpter of script
+#.... the whole script here the exported vars will also be available
+```
+```
+~/.bash_profile : exec  for login shell
+~/.bashrc :  exec all times
+~/.profile  : exec for login shell
+sequence /etc/profile ~/.profile ~/.bashrc /etc/bashrc
 ```
