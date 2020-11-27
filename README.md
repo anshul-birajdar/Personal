@@ -168,5 +168,5 @@ killall anyname # to kill processes with name "anyname"
 
 ```
 vi: $ vimtutor
-other  commands : see " tlcl 19-01 or later
+other  commands : see "the linux command line" book
 ```
