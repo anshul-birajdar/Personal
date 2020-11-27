@@ -204,7 +204,11 @@ free
 tty <ctrl alt f1-f7>
 sspc login:name
 password:
-password is hidden
+note : password is hidden
+name@sspc:~$ ls
+Desktop  Documents  Downloads	Music  Pictures  Public   Templates  Video
+name@sspc:~$logout
+
 
 ```
 ```
