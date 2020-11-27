@@ -167,6 +167,12 @@ killall anyname # to kill processes with name "anyname"
 ```
 
 ```
+networkinbg
+ifconfig  # to see internet connections
+ifconfig lan_name ipaddr #to cofig
+traceroute
+ping sitename.com # pings the site until press ^C (useful for checking net is there)
+traceroute google.com # to trace the route of packets
 vi: $ vimtutor
-other  commands : see "the linux command line" book
+other  commands : see "the linux command line" or "unix for 7th graders" books
 ```
