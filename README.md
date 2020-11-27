@@ -192,8 +192,7 @@ ls    --color=auto is often aliased to ls ; try $ /bin/ls   # color is not there
 grep|---------------------------------------------/bin/grep---------------------|
 grep usage 
 $ grep searchterm filename
-ls cp mv cd pwd
-
+ls cp mv cd pwd mkdir ln ln\ -s free df du echo tail head wc grep sed whoami su id gpasswd passwd chmod chown  gpasswd w useradd(also: add entry in /etc/passwd and run passwd command the password field should be a space i.e spacebar) userdel chgrp(also chmod user:group)  
 ```
 ```
 env var(s)
@@ -227,4 +226,12 @@ fg command eqivalent to  $ command
 bg command eqivalent to  $ command& or if aldready in press ^Z
 ^C to exit
 ^D some times (EOF also)
+```
+```
+cal : calendar
+date
+man : help
+whereis : find files anywhere in fs
+cat: print files
+
 ```
