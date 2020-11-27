@@ -159,7 +159,14 @@ fields
 ```
 ```
 processes:
+top,htop for top processes
 ps aux : get all
-ps aux | grep name to get pid; kill pid  # to kill process
+ps aux | grep name to get pid
+kill pid  # to kill process
+killall anyname # to kill processes with name "anyname"
 ```
 
+```
+vi: $ vimtutor
+other  commands : see " tlcl 19-01 or later
+```
