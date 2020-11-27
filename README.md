@@ -194,7 +194,18 @@ ls    --color=auto is often aliased to ls ; try $ /bin/ls   # color is not there
 grep|---------------------------------------------/bin/grep---------------------|
 grep usage 
 $ grep searchterm filename
-ls cp mv cd pwd mkdir ln ln\ -s free df du echo tail head wc grep sed whoami su id gpasswd passwd chmod chown  gpasswd w useradd(also: add entry in /etc/passwd and run passwd command the password field should be a space i.e spacebar) userdel chgrp(also chmod user:group)  
+ls cp mv cd pwd mkdir ln ln\ -s free df du echo tail head wc grep sed whoami su id gpasswd passwd chmod chown  gpasswd w useradd(also: add entry in /etc/passwd and run passwd command the password field should be a space i.e spacebar) userdel chgrp(also chmod user:group)  ssh telnet 
+
+absolute relative path
+apt for debian ubuntu
+tar gzip zip
+* and ? in shell (+ other regex)
+free
+tty <ctrl alt f1-f7>
+sspc login:name
+password:
+password is hidden
+
 ```
 ```
 env var(s)
