@@ -90,3 +90,76 @@ $ as a.s -o a.o ; ld a.o -o a.out ; ./a.out # will assemble a.s (Note: if gives 
 
 ```
 
+```
+Permissions:
+each digit
+-rw-rw-r--  1 anshul anshul  120 Nov 27 12:42  a.c
+ >~~~~~~~>Permissions
+ >File type -:normal or hard link , d: directory , l:symlink; socket pipe charachter block : with their first charachter 
+
+chmod : octal :
+to binary
+000 0 :nothing
+001 1 :x
+010 2 :w
+011 3 :wx 
+100 4 :r
+101 5 :rx
+110 6 :rw
+111 7 :rwx
++ add perm with the numonic
+- rem |------------------|
+u user g group o other
+ex : $ chmod u+x filename
+
+Users & Groups:
+$ passwd <user> # sets the password for user , default is root
+/etc/passwd: user info
+fields
+1:name
+2:password # x for encrypted
+3:UID # user id
+4:GID # GRoup id
+5 comment
+6:home dir
+7:login shell
+
+chown 
+$ chown user:group filenames filename dirname dirnames file1 file2 file3 anyotherfile
+/etc/shadow : password & stuff
+fields
+1:login name
+2:password : encrypted
+3:Days since epoch passwd was last changed
+4:days before      password may be change ( To prevent users from changing their password )
+5:Days after which |----------------------------------------------------------------------|
+6:Days before which the password expires does the user be warned
+7:days after which password expired is account disabled
+8:Days since epoch the account should be disabled
+9:Reserved
+
+gpasswd for changing group password
+$ gpasswd group
+Enter new passwd:
+password successfully updated!
+
+/etc/group
+fields 
+1:group name
+2:group passwd
+3:gid
+4:member of group # ex : aub,bwk,xyz,sdfjwf,sdsdf,hero (separated by commas)
+
+/etc/gshadow
+fields
+1:grp name
+2:grp passwd
+3:grp admin
+4:member of grp
+```
+```
+processes:
+ps aux : get all
+ps aux | grep name to get pid; kill pid  # to kill process
+```
+
