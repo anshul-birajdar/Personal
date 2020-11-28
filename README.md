@@ -250,5 +250,11 @@ date
 man : help
 whereis : find files anywhere in fs
 cat: print files
+abs vs rel path
+UNIX for 7th graders book pdf from b-ok.asia
+cat /proc/cpuinfo
+|'s in linux ex. ls|grep anshul|less
+file find jobs kill killall echo $?
+
 
 ```
