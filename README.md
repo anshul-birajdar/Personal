@@ -256,5 +256,12 @@ cat /proc/cpuinfo
 |'s in linux ex. ls|grep anshul|less
 file find jobs kill killall echo $?
 
+print program names in c
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	printf("program's name is: %s\n",argv[0]);
+	return 0;
+}
 
 ```
