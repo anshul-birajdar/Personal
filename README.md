@@ -265,6 +265,7 @@ int main(int argc, char *argv[]) {
 	// from argv[1] to ... is the args 
 }
 
-learn risc v
-
+learn risc v assembly/machine code
+function pointer
+lspcie command
 ```
