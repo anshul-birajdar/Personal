@@ -269,4 +269,5 @@ learn risc v assembly/machine code
 function pointer
 lspcie command
 in normal mode in vi, type o to add a new line and enter in inst mode
+tiling window manager
 ```
