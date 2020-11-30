@@ -270,4 +270,8 @@ function pointer
 lspcie command
 in normal mode in vi, type o to add a new line and enter in inst mode
 tiling window manager
+
+vim:
+press escape and o to insert a line
+
 ```
