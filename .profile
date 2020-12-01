@@ -28,6 +28,6 @@ fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
 TERM=xterm-256color
-alias cco="gcc -g"
+alias cco="gcc -g -Wall"
 alias gcc="gcc -Wall"
 alias clang="clang -Wall"
