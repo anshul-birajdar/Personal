@@ -2,7 +2,13 @@
 Personal files 
 
 ```c
+#include <pthread.h>
+#include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
+//remember to include all for all functions
+
+
 
 int main(void){
 printf("Personal_files\n");
