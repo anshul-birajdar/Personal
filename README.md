@@ -100,7 +100,7 @@ $ gcc <*.c> <*.o> -o <a.out> # .o is optional gives executable
 $ gcc -c <*.c> <*.o> -o <a.out> # .o is optional  gives object files
 $ gcc <*.c> -S <a.s> # gives executable
 $ as a.s -o a.o ; ld a.o -o a.out ; ./a.out # will assemble a.s (Note: if gives error: add .global _main to start
-
+$ hexdump -C files
 
 ```
 
