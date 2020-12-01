@@ -146,3 +146,4 @@ echo ~/_u*
 TERM=xterm-256color
 PATH=$PATH:/opt/riscv/bin
 export QT_QPA_PLATFORMTHEME=qt5ct
+alias cc="gcc -g"
