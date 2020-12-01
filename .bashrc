@@ -111,6 +111,8 @@ fi
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
+#if you are using with "ARCH" dont copy straight away
+
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
@@ -146,4 +148,4 @@ echo ~/_u*
 TERM=xterm-256color
 PATH=$PATH:/opt/riscv/bin
 export QT_QPA_PLATFORMTHEME=qt5ct
-alias cco="gcc -g"
+alias cco="gcc -g -Wall"
