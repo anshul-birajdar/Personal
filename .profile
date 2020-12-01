@@ -28,4 +28,4 @@ fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
 TERM=xterm-256color
-alias cc=gcc -g
+alias cco=gcc -g
