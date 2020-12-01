@@ -1,4 +1,5 @@
 ```c
+//https://www.youtube.com/watch?v=NeOTr0u7ALk&list=TLPQMDExMjIwMjB1qYPUBUg54g&index=6
 //https://www.youtube.com/watch?v=2YfM-HxQd_8&list=TLPQMDExMjIwMjB1qYPUBUg54g&index=5
 #include <pthread.h>
 #include <stdlib.h>
