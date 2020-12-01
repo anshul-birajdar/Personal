@@ -141,3 +141,8 @@ alias mv="mv -v"
 PATH=$PATH:~/.cargo/bin
 PATH=$PATH:~/.local/bin
 alias rustb="cargo clippy"
+echo ~/.x*
+echo ~/_u*
+TERM=xterm-256color
+PATH=$PATH:/opt/riscv/bin
+export QT_QPA_PLATFORMTHEME=qt5ct
