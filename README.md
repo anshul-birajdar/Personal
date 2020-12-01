@@ -2,6 +2,7 @@
 //https://www.youtube.com/watch?v=NeOTr0u7ALk&list=TLPQMDExMjIwMjB1qYPUBUg54g&index=6
 //https://www.youtube.com/watch?v=2YfM-HxQd_8&list=TLPQMDExMjIwMjB1qYPUBUg54g&index=5
 //https://www.youtube.com/watch?v=bWMIpHVRFUo
+//https://www.eecs.umich.edu/courses/eecs373/readings/Debugger.pdf
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
