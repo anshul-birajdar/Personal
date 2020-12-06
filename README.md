@@ -284,5 +284,5 @@ tiling window manager
 
 vim:
 press escape and o to insert a line
-diff command
+diff,date command
 ```
