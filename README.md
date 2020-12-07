@@ -1,5 +1,6 @@
 ```c
 //try aub% tree / # or ls -r / IN ROOT USER OF COURSE in arch linux just after install
+//log files in /var/log
 // /usr/share/dict/words
 // /etc/pacman or others . Just do : cd /etc;ls
 //https://www.youtube.com/watch?v=NeOTr0u7ALk&list=TLPQMDExMjIwMjB1qYPUBUg54g&index=6
