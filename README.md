@@ -9,6 +9,7 @@
 //https://www.youtube.com/watch?v=aMAM5vL7wTs
 //https://www.eecs.umich.edu/courses/eecs373/readings/Debugger.pdf
 //size_t for var with reg len
+//strip command for removing debugging info and make it faster and ready for shipping
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
