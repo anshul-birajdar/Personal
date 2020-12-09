@@ -18,6 +18,7 @@
 #include <stdio.h>
 #include <unistd.h>
 //remember to include all for all functions
+//mount umount
 // $ ls -lhi
 
 
