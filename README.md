@@ -1,6 +1,9 @@
 ```c
 //mkfs.<tab>
 //mkfs.ext4 /dev/sda3 #make ext4 partition
+//chroot
+//file command
+//lsblk
 //FileSystemChecK=fsck /dev/sda3 # check if dev is good to use
 //try aub% tree / # or ls -r / IN ROOT USER OF COURSE in arch linux just after install
 //log files in /var/log
