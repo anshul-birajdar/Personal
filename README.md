@@ -1,4 +1,5 @@
 ```c
+//apt search <name> #command
 //fdisk- flag 1 for making it bootable
 //mkfs.<tab>
 //mkfs.ext4 /dev/sda3 #make ext4 partition
