@@ -303,4 +303,9 @@ vi
 :%s/old/new/g
 is as ed
 1,$s/old/new/g
+
+try nex and nvi : $ nex # or nvi
+install : $ sudo apt install nvi
+(This is the original)
+try ed: $ ed # it is available on 99 percent of UNIX machines or clones and has 100% the same features
 ```
