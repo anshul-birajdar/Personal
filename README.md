@@ -298,4 +298,5 @@ tiling window manager
 vim:
 press escape and o to insert a line
 diff,date command
+https://raymii.org/s/tutorials/ed_cheatsheet.html
 ```
