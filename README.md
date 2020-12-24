@@ -26,6 +26,8 @@
 //remember to include all for all functions
 //mount umount
 // $ ls -lhi
+// /usr/chare/common-licenses
+
 
 
 int main(void){
