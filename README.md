@@ -1,4 +1,5 @@
 ```c
+// sudo dpkg-reconfigure console-setup # select "UTF-8 and dont change default font for retro"
 // sudo dd if=artful-desktop-amd64.iso \
 // of=/dev/sdd bs=1M status=progress
 // /usr/share/common-licenses/
