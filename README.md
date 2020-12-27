@@ -1,4 +1,6 @@
 ```c
+// sudo dd if=artful-desktop-amd64.iso \
+// of=/dev/sdd bs=1M status=progress
 // /usr/share/common-licenses/
 //apt search <name> #command
 //swap partition
