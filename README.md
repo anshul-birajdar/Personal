@@ -1,4 +1,5 @@
 ```c
+// /usr/share/common-licenses/
 //apt search <name> #command
 //swap partition
 //fdisk- flag 1 for making it bootable
