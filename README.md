@@ -27,6 +27,7 @@
 //mount umount
 // $ ls -lhi
 // /usr/chare/common-licenses
+// df command for mounted paths
 
 
 
