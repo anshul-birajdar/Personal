@@ -1,4 +1,5 @@
 ```c
+//https://en.wikipedia.org/wiki/Runlevel#Linux_Standard_Base_specification
 // sudo dpkg-reconfigure console-setup # select "UTF-8 and dont change default font for retro"
 // sudo dd if=artful-desktop-amd64.iso \
 // of=/dev/sdd bs=1M status=progress
