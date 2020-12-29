@@ -32,7 +32,7 @@
 // $ ls -lhi
 // /usr/chare/common-licenses
 // df command for mounted paths
-
+// $ip addr show
 
 
 int main(void){
